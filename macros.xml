@@ -1,0 +1,13 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="srednik i nowa linia">
+      <action id="EditorLineEnd" />
+      <typing text-keycode="59:0">;</typing>
+      <action id="EditorEnter" />
+    </macro>
+    <macro name="średnik na końcu">
+      <action id="EditorLineEnd" />
+      <typing text-keycode="59:0">;</typing>
+    </macro>
+  </component>
+</application>
