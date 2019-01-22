@@ -4,6 +4,9 @@
       <webServer id="b1cf8baa-e7d5-4c57-ad8c-4cf88521e586" name="PM" url="http://localhost:5555">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="04488b74-0789-41d7-8e7f-538db2de1ec8" name="Symfony" url="http://127.0.0.1:8003/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
