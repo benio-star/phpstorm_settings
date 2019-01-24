@@ -1,8 +1,31 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+  </action>
+  <action id="EditorScrollUp" />
   <action id="Macro.srednik i nowa linia">
     <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
   </action>
   <action id="Macro.średnik na końcu">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
 </keymap>
