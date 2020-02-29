@@ -7,7 +7,7 @@
       <webServer id="04488b74-0789-41d7-8e7f-538db2de1ec8" name="Symfony" url="http://127.0.0.1:8003/">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
-      <webServer id="e5d93061-b5c0-47e5-8fc6-e4766e7d661c" name="Massproxy" url="http://80.211.193.172">
+      <webServer id="e5d93061-b5c0-47e5-8fc6-e4766e7d661c" name="Massproxy" url="https://test.massproxy.com">
         <fileTransfer host="80.211.193.172" port="22" rootFolder="/home/admin/web/test.massproxy.com/public_html" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
